@@ -25,10 +25,10 @@ ALLOWED_HOSTS = []
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'ibook',
+        'USER': 'dangnh',
+        'PASSWORD': 'password',
         'HOST': 'db',
         'PORT': 5432,
     },

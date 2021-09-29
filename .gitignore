@@ -1,9 +1,11 @@
 .idea/
 **.pyc
 **/*.sqlite3
+**/*.postgresql
+**/*.postgresql_psycopg2
 .DS_Store
 
-ischoolbus/.vscode
+ibook/.vscode
 .env
 
 # code coverage
